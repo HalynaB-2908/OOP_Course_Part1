@@ -1,0 +1,10 @@
+C:\Users\galja\source\repos\PR1.Win\PR1.Win\obj\Debug\PR1.Win.csproj.AssemblyReference.cache
+C:\Users\galja\source\repos\PR1.Win\PR1.Win\obj\Debug\PR1.Win.Form1.resources
+C:\Users\galja\source\repos\PR1.Win\PR1.Win\obj\Debug\PR1.Win.Properties.Resources.resources
+C:\Users\galja\source\repos\PR1.Win\PR1.Win\obj\Debug\PR1.Win.csproj.GenerateResource.cache
+C:\Users\galja\source\repos\PR1.Win\PR1.Win\obj\Debug\PR1.Win.csproj.CoreCompileInputs.cache
+C:\Users\galja\source\repos\PR1.Win\PR1.Win\bin\Debug\PR1.Win.exe.config
+C:\Users\galja\source\repos\PR1.Win\PR1.Win\bin\Debug\PR1.Win.exe
+C:\Users\galja\source\repos\PR1.Win\PR1.Win\bin\Debug\PR1.Win.pdb
+C:\Users\galja\source\repos\PR1.Win\PR1.Win\obj\Debug\PR1.Win.exe
+C:\Users\galja\source\repos\PR1.Win\PR1.Win\obj\Debug\PR1.Win.pdb
