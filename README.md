@@ -17,3 +17,5 @@ Task 01: Currency Converter
 Create a WinForms (.NET) application to calculate the equivalent amount in dollars based on an entered amount in hryvnias and the current exchange rate from hryvnia to dollar. The user inputs the amount in hryvnias and the exchange rate, and the program outputs the converted amount in dollars.
 Example: If the input is 100 UAH and the exchange rate is 38.1, the result will be $2.62.
 
+Task 02: Seconds to Time Converter
+Create a console application to convert an entered number of seconds into hours, minutes, and seconds. The user inputs the total number of seconds, and the program calculates and outputs the equivalent time in hours, minutes, and seconds. Example: If the input is 3602 seconds, the result will be 1 hour, 0 minutes, and 2 seconds.
