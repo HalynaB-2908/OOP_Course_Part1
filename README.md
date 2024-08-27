@@ -54,3 +54,12 @@ Input:
 sgsgs sdg s.sd.Asdfdg sdgs g.  sgdsgds
 Output:
 sgsgs sdg s. sd. Asdfdg sdgs g. sgdsgds
+
+Task 12: Student Records
+Create a Windows Forms application for managing student records. Implement the following functionalities:
+Add Student: Input student data (Last Name and three exam scores) and display the student's average score.
+Display Student: Create and display a student record using provided input parameters, showing the average score in a message box.
+Initialize DataGridView: Set up a DataGridView to display student records, including Last Name, three exam scores, and the average score. Configure column widths appropriately.
+Add to DataGridView: Add students to the DataGridView and update with rounded average scores (to two decimal places).
+Find Top Student: Identify and display the student with the highest average score from the DataGridView records.
+Ensure the DataGridView columns are sized correctly, with the Last Name column wider than the exam score columns.
