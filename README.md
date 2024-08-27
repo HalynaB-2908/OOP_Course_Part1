@@ -28,3 +28,9 @@ Create a program to find the maximum and minimum elements in an array of random 
 
 Task 05: Swap Max Min Arr
 Create a program to swap the maximum and minimum elements in an array of random numbers. The program should display the array before and after the swap, clearly indicating the changes made.
+
+Task 06: Rotate Right
+Create a program to perform a cyclic shift of all elements in an array of random numbers to the right by one position. The last element should become the first element in the array.
+
+Task 07: Rotate Left
+Create a program to perform a cyclic shift of all elements in an array of random numbers to the left by one position. The first element should become the last element in the array.
