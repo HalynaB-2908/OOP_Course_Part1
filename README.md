@@ -19,3 +19,6 @@ Example: If the input is 100 UAH and the exchange rate is 38.1, the result will 
 
 Task 02: Seconds to Time Converter
 Create a console application to convert an entered number of seconds into hours, minutes, and seconds. The user inputs the total number of seconds, and the program calculates and outputs the equivalent time in hours, minutes, and seconds. Example: If the input is 3602 seconds, the result will be 1 hour, 0 minutes, and 2 seconds.
+
+Task 03: GUI-Based 2D Array Element Replacement
+Create a GUI application to work with a 2D array of random numbers. The program should find and swap the maximum and minimum elements in the array. The background of these elements should be highlighted with a distinct color. Additionally, display the indices of these elements in a label.
