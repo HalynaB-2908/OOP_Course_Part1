@@ -48,5 +48,9 @@ sd
 Task 10: Grade Average
 Create a program to input an array of 5 grades (characters in the range A-F). Calculate the average grade and display both the numerical average and the corresponding letter grade.
 
-Task 11: Normalize Spaces
-Create a program to input a sentence with extra spaces between words. The program should transform the sentence so that only a single space separates words.
+Task 11: Normalize Sentence Spaces
+Create a program to input a string containing sentences, where extra spaces may be missing before new sentences. The program should transform the string so that there is exactly one space before each new sentence. For example:
+Input:
+sgsgs sdg s.sd.Asdfdg sdgs g.  sgdsgds
+Output:
+sgsgs sdg s. sd. Asdfdg sdgs g. sgdsgds
