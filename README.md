@@ -34,3 +34,18 @@ Create a program to perform a cyclic shift of all elements in an array of random
 
 Task 07: Rotate Left
 Create a program to perform a cyclic shift of all elements in an array of random numbers to the left by one position. The first element should become the last element in the array.
+
+Task 08: Count Words
+Create a program to count the number of words in a given string. Words are separated by spaces. For example, the string "asdasd s asda sd" contains 4 words.
+
+Task 09: Split Sentences
+Create a console application to input a string of sentences separated by periods. The program should output each sentence on a new line. For example, the string "asdasd s asda. Ssd fgdfg dfg. df" should be displayed as:
+asdasd s asda.
+Ssd fgdfg dfg.
+df
+
+Task 10: Grade Average
+Create a program to input an array of 5 grades (characters in the range A-F). Calculate the average grade and display both the numerical average and the corresponding letter grade.
+
+Task 11: Normalize Spaces
+Create a program to input a sentence with extra spaces between words. The program should transform the sentence so that only a single space separates words.
