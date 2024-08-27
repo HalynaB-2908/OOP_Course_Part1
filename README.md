@@ -22,3 +22,15 @@ Create a console application to convert an entered number of seconds into hours,
 
 Task 03: GUI-Based 2D Array Element Replacement
 Create a GUI application to work with a 2D array of random numbers. The program should find and swap the maximum and minimum elements in the array. The background of these elements should be highlighted with a distinct color. Additionally, display the indices of these elements in a label.
+
+Task 04: Find Max Min Arr
+Create a program to find the maximum and minimum elements in an array of random numbers. The program should output the values of these elements along with their indices in the array.
+
+Task 05: Swap Max Min Arr
+Create a program to swap the maximum and minimum elements in an array of random numbers. The program should display the array before and after the swap, clearly indicating the changes made.
+
+Task 06: Rotate Right
+Create a program to perform a cyclic shift of all elements in an array of random numbers to the right by one position. The last element should become the first element in the array.
+
+Task 07: Rotate Left
+Create a program to perform a cyclic shift of all elements in an array of random numbers to the left by one position. The first element should become the last element in the array.
