@@ -63,3 +63,10 @@ Initialize DataGridView: Set up a DataGridView to display student records, inclu
 Add to DataGridView: Add students to the DataGridView and update with rounded average scores (to two decimal places).
 Find Top Student: Identify and display the student with the highest average score from the DataGridView records.
 Ensure the DataGridView columns are sized correctly, with the Last Name column wider than the exam score columns.
+
+Task 13: Student List Editor
+Develop a Windows Forms application for managing a list of student records with the following features:
+Create Student Array: Initialize an array of students and configure a DataGridView to display student records. The DataGridView should include columns for Last Name, three exam scores, and the average score, with appropriate column sizing.
+Add Student: Open a form to input student details (Last Name and three exam scores). Add the student to the array and display their information in the DataGridView. Calculate and display the student's average score, rounded to two decimal places.
+Edit Student: Search for a student by Last Name and edit their details through a dedicated form. Update the student's record in the array and reflect changes in the DataGridView.
+Highlight Student: Implement a feature to search for a student by Last Name and highlight their row in the DataGridView.
