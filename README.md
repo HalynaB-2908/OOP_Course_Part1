@@ -70,3 +70,21 @@ Create Student Array: Initialize an array of students and configure a DataGridVi
 Add Student: Open a form to input student details (Last Name and three exam scores). Add the student to the array and display their information in the DataGridView. Calculate and display the student's average score, rounded to two decimal places.
 Edit Student: Search for a student by Last Name and edit their details through a dedicated form. Update the student's record in the array and reflect changes in the DataGridView.
 Highlight Student: Implement a feature to search for a student by Last Name and highlight their row in the DataGridView.
+
+Task 14: FlashDrive files simulator
+Create a Windows Forms application to manage flash drives and files with the following functionalities:
+Classes Definition:
+File Class: Contains properties for Name and Size.
+Flash Drive Class: Contains properties for Name, Maximum Size, and an array of up to 5 File objects. Implement methods to add and remove files, as well as to calculate the current total size of all files on the flash drive.
+Flash Drive Array:
+Create an array of flash drive objects. Display flash drive details in a DataGridView, with file names shown in a single cell as a comma-separated string.
+Adding Objects:
+Implement additional forms for adding new flash drive and file objects. Ensure that each object can be edited through these forms.
+File Transfer:
+Implement functionality to move a file from one flash drive to another, based on their indexes in the array.
+Swap Flash Drives:
+Add a feature to swap the positions of two flash drives in the array based on their indexes.
+Search Functionality:
+Implement search features based on the following criteria:
+Flash drive name
+File name
