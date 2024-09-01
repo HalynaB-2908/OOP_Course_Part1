@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace STUDENT2
 {
@@ -15,6 +16,8 @@ namespace STUDENT2
         public Form2()
         {
             InitializeComponent();
+            SetupToolTips();
+            SetupValidation();
         }
         public Form2(ref Stud stEdit)
         {
@@ -24,14 +27,15 @@ namespace STUDENT2
             textBox3.Text = stEdit.Ex2.ToString();
             textBox4.Text = stEdit.Ex3.ToString();
             btn_Save.Text = "Save Edit";
-            btn_Save.Text = "Save Edit";
             _stEdit =stEdit;
+            SetupValidation();
+            SetupToolTips();
         }
         Stud _stEdit;
         public Stud pr_stud 
         {
             get 
-            { 
+            {
                 Stud st1 = new Stud();
                 st1.Name = textBox1.Text;
                 st1.Ex1 = Convert.ToInt32(textBox2.Text);
@@ -50,6 +54,30 @@ namespace STUDENT2
                 _stEdit.Ex3 = Convert.ToInt32(textBox4.Text);
                 this.DialogResult = DialogResult.OK;
             }
+        }
+        private void SetupToolTips()
+        {
+            toolTip.SetToolTip(textBox1, "Enter the student's name");
+            toolTip.SetToolTip(textBox2, "Enter the valid grade");
+            toolTip.SetToolTip(textBox3, "Enter the valid grade");
+            toolTip.SetToolTip(textBox4, "Enter the valid grade");
+        }
+        private void SetupValidation()
+        {
+            textBox1.TextChanged += ValidateInputs;
+            textBox2.TextChanged += ValidateInputs;
+            textBox3.TextChanged += ValidateInputs;
+            textBox4.TextChanged += ValidateInputs;
+            ValidateInputs(null, null);
+        }
+
+        private void ValidateInputs(object sender, EventArgs e)
+        {
+            bool isNameValid = !string.IsNullOrWhiteSpace(textBox1.Text);
+            bool isEx1Valid = int.TryParse(textBox2.Text, out _);
+            bool isEx2Valid = int.TryParse(textBox3.Text, out _);
+            bool isEx3Valid = int.TryParse(textBox4.Text, out _);
+            btn_Save.Enabled = isNameValid && isEx1Valid && isEx2Valid && isEx3Valid;
         }
     }
 }

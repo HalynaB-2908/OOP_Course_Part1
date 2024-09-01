@@ -23,13 +23,11 @@ namespace STUDENT2
 
         private void create_mas_std_Click(object sender, EventArgs e)
         {
-            // Check if the textbox is empty
             if (string.IsNullOrWhiteSpace(textBox1.Text))
             {
                 MessageBox.Show("Please enter a number.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
-            }
-            // Try to convert the input to an integer 
+            } 
             try
             {
                 N = Convert.ToInt32(textBox1.Text);
@@ -52,14 +50,23 @@ namespace STUDENT2
             }
             catch (ArgumentOutOfRangeException)
             {
-                // Handle the case where the number is not positive
                 MessageBox.Show("The number must be greater than zero.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             stMas = new Stud[N];
             dataGridView1.RowCount = N;
             dataGridView1.ColumnCount = 5;
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+            dataGridView1.Columns[0].HeaderText = "Last Name";
+            dataGridView1.Columns[1].HeaderText = "Exam 1";
+            dataGridView1.Columns[2].HeaderText = "Exam 2";
+            dataGridView1.Columns[3].HeaderText = "Exam 3";
+            dataGridView1.Columns[4].HeaderText = "Avg Score";
+            dataGridView1.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+            dataGridView1.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dataGridView1.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dataGridView1.Columns[3].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            dataGridView1.Columns[4].AutoSizeMode = DataGridViewAutoSizeColumnMode.AllCells;
+            textBox1.Text = "";
         }
         private void add_stud_to_arr_Click(object sender, EventArgs e)
         {
@@ -101,8 +108,8 @@ namespace STUDENT2
             dataGridView1.Rows[NomEdit].Cells[2].Value = stMas[NomEdit].Ex2;
             dataGridView1.Rows[NomEdit].Cells[3].Value = stMas[NomEdit].Ex3;
             dataGridView1.Rows[NomEdit].Cells[4].Value = stMas[NomEdit].AverGrade;
+            textBox2.Text = "";
         }
-
         private void find_student_Click(object sender, EventArgs e)
         {
             fName = textBox2.Text;
@@ -116,14 +123,13 @@ namespace STUDENT2
                     break;
                 }
             }
-
             if (NomEdit == -1)
             {
                 MessageBox.Show("Student not found");
                 return;
             }
-
-            dataGridView1.Rows[NomEdit].DefaultCellStyle.BackColor = System.Drawing.Color.Red;
+            dataGridView1.Rows[NomEdit].DefaultCellStyle.BackColor = System.Drawing.Color.Gray;
+            textBox2.Text = "";
         }
     }
 }

@@ -27,7 +27,7 @@ namespace STUDENT2
         }
         public double AverGrade
         { 
-            get { return (Convert.ToDouble(e1 + e2 + e3)) / 3; } 
+            get { return Math.Round((Convert.ToDouble(e1 + e2 + e3)) / 3, 2); } 
         }
     }
 }
